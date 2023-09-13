@@ -13,7 +13,7 @@ gem "sprockets-rails"
 gem "pg"
 gem "bootstrap", "~> 5.2"
 gem "simple_form"
-
+gem "dotenv-rails"
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
