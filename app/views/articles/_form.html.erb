@@ -8,6 +8,12 @@
     <%= f.input :body %>
   </div>
 
+  <%= simple_form_for(article) do |f| %>
+  <!-- [...] -->
+  <%= f.input :photo, as: :file %>
+  <!-- [...] -->
+<% end %>
+
   <div class="form-actions">
     <%= f.button :submit %>
   </div>
