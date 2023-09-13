@@ -132,6 +132,8 @@ GEM
     nio4r (2.5.9)
     nokogiri (1.15.4-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.15.4-x86_64-linux)
+      racc (~> 1.4)
     pg (1.5.4)
     popper_js (2.11.8)
     public_suffix (5.0.3)
@@ -227,6 +229,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap
@@ -234,7 +237,7 @@ DEPENDENCIES
   capybara
   debug
   importmap-rails
-  pg (~> 1.1)
+  pg
   puma (~> 5.0)
   rails (~> 7.0.6)
   sassc-rails
@@ -248,7 +251,7 @@ DEPENDENCIES
   webdrivers
 
 RUBY VERSION
-   ruby 3.1.2
+   ruby 3.1.2p20
 
 BUNDLED WITH
    2.3.16
