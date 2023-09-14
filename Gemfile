@@ -11,7 +11,7 @@ gem "sprockets-rails"
 
 # Use postgresql as the database for Active Record
 gem "pg"
-gem "bootstrap"
+gem "bootstrap" , "~> 5.2"
 gem "simple_form"
 gem "dotenv-rails"
 gem "cloudinary"

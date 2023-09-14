@@ -258,7 +258,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap
-  bootstrap
+  bootstrap (~> 5.2)
   capybara
   cloudinary
   debug
