@@ -8,9 +8,10 @@
     <%= f.input :body %>
   </div>
 
-  <%= simple_form_for(article) do |f| %>
+
+<%= simple_form_for(article) do |f| %>
   <!-- [...] -->
-  <%= f.input :photo, as: :file %>
+  <%= f.input :photos, as: :file, input_html: { multiple: true } %>
   <!-- [...] -->
 <% end %>
 
